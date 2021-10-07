@@ -9,7 +9,7 @@ def reverse_words(text):
     new_reversed = [word[::-1] for word in reversed]
     new_sentence = " ".join(new_reversed)
     return new_sentence
-reverse_words('The quick brown fox jumps over the lazy dog.')
+print(reverse_words('The quick brown fox jumps over the lazy dog.'))
 reverse_words('apple')
 reverse_words('a b c d')
 reverse_words('double  spaced  words')
